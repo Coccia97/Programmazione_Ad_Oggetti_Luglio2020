@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Main {
 
 	public static void main(String[] args) {
-		String url = "https://graph.facebook.com/v7.0/me?fields=photos&access_token=EAAH51tUzLoUBAEH4JY5lP7Sb6nlGcDExUc5CiH3QWQerwe1wLNg2NdTX1Jtv100KAp96eHdMVOLZBoyAGkQUykjujucJAQlXUioZCOUVnMRH9jZBZAczD7E1T2F0J075sF5QezcqTUM9sFO6CJqF5qkCHExDzFQofXZAlzsCaLE7yUsdw9ZCmYdnbYyA8bZBLHqYUygkwP3EXwUMEe6O9tuQ5kNTgvtWstGHeXXCNBgwQZDZD";
+		String url = "https://graph.facebook.com/v7.0/2531425577076284?fields=photos&access_token=EAAIlMonHq4wBADGi5O0qoKKZAIS7GEqNOUAZCg5hWeXwHoBlykDO0mIB8O1neCiZClExtFFMurfTroWXN6oPdeLd1zdpVV5DPDRJGdeF7TZB8LovX3SjzgTDxUDlFXHlAoA12Vxzej0sDgOpmYDHBPH49nhZCLy4Ak3bGQ9K1TGhcy4ZBoviPTnDE651r0wJxbrrJo2meZBTqRfeZCm1hZBMJ5UkSlEFTGgZB1nSkFmciI3QZDZD";
 		DownloadFromURL json = new DownloadFromURL();
 		String test1 = json.JsonToString(url);
 		StringParser.StringToPhotos(test1);

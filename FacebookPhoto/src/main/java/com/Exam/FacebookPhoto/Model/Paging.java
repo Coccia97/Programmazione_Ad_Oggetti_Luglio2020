@@ -3,11 +3,11 @@ package com.Exam.FacebookPhoto.Model;
 public class Paging {
 	Cursors cursors;
 
-	public Cursors getCursors() {
+	public Cursors getCursorsObject() {
 		return cursors;
 	}
 
-	public void setCursors(Cursors cursors) {
+	public void setCursorsObject(Cursors cursorsObject) {
 	
 	}
 
